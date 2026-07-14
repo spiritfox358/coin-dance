@@ -1,328 +1,196 @@
 <div align="center">
 
+# 抖音无限币 (Tiktok Infinite Coin)
 
-# 抖音无限币模拟器(Tiktok Infinite Coin Simulator)
+## 🎭 AI Host Voice Room - Play with AI!
 
-## AI-Powered Live Social Platform
+**Download Now**
 
-**中文 | English**
-
-[Download / Live Demo](http://120.26.7.131:8358/promotion.html)
+[🎮 Click to Download / Play Online](http://120.26.7.131:8358/promotion.html)
 
 </div>
 
 ---
 
-# 中文介绍
+# ✨ What is Tiktok Infinite Coin Simulator?
 
-## 项目定位
+Tiktok Infinite Coin Simulator is an **AI virtual host voice social platform** where you can:
 
-Coin Dance 是一套面向直播、语音厅和互动娱乐的全栈社交平台。它不是一个简单的直播间 Demo，而是把直播房间、语音连麦、AI 嘉宾、实时 PK、礼物系统、粉丝关系、私信社交、作品动态和榜单玩法组合成一个可以持续运营的产品底座。
+- 🎤 **Voice chat with AI hosts in real-time** - AI responds to everything you say
+- 🎁 **Send gifts and shower with coins** - Watch AI hosts thank you for your support
+- ⚔️ **Join PK battles** - Watch intense battles between hosts from different rooms
+- 👥 **Meet new friends** - Enter rooms and interact with other users
+- 🏆 **Climb the rankings** - Send gifts to top the contributor leaderboard
+- 💬 **Send chat messages** - Real-time chat with amazing atmosphere
 
-如果你想快速搭建一个类似直播社交、语音交友、AI 主播、陪玩互动、线上娱乐房间的项目，Coin Dance 可以作为一个完整参考。
-
-在线体验与下载入口：
-
-[http://120.26.7.131:8358/promotion.html](http://120.26.7.131:8358/promotion.html)
-
-## 核心特色
-
-### AI 语音厅
-
-Coin Dance 支持 AI 嘉宾进入语音房，以真实房间事件驱动对话。用户进房、发送弹幕、送礼、参与 PK、触发惩罚和互动玩法时，AI 都可以根据当前房间状态做出回应。
-
-它更像一个会控场的虚拟主持系统，而不是单纯的聊天机器人。
-
-主要能力包括：
-
-- AI 嘉宾自动上麦、发言、互动
-- 真人弹幕实时响应
-- 礼物感谢、进场欢迎、PK 喊票
-- 房间记忆与上下文感知
-- PK 期间才艺、互动、谢榜、惩罚流程
-- 无真人在线时降低 AI 消耗，避免空跑成本
-
-### 实时直播与语音房
-
-平台支持视频直播和语音房两种核心场景。房间内包含实时弹幕、在线用户、麦位、背景音乐、礼物、PK、榜单等完整直播互动组件。
-
-适合用于：
-
-- 秀场直播
-- 语音交友房
-- AI 主播房
-- 陪玩语音房
-- 音乐电台
-- 线上娱乐互动房
-
-### PK 对战系统
-
-Coin Dance 内置房间 PK 能力，支持房间之间进行限时对战。PK 分数可由礼物、互动行为、活动规则等驱动，并可以实时广播到双方房间。
-
-PK 不只是血条变化，还包含：
-
-- PK 倒计时
-- 双方分数同步
-- 房间贡献榜
-- 主播与嘉宾互动
-- PK 胜负结算
-- 惩罚期逻辑
-- PK 专属背景音乐切换
-
-### 礼物与消费体系
-
-项目包含完整的礼物基础结构，支持礼物分类、礼物明细、赠送记录、钱包流水、充值订单、用户道具和装扮体系。
-
-它可以作为直播平台商业化的基础模块：
-
-- 礼物面板
-- 礼物分组
-- 送礼记录
-- 钱包流水
-- 充值订单
-- 用户装扮
-- 神秘人身份
-- 粉丝团亲密度
-
-### 粉丝团与用户成长
-
-平台设计了粉丝团、等级、亲密度、任务、特权、轮回和神秘人等成长体系，让用户不只是进房送礼，而是有长期身份和关系沉淀。
-
-这类系统适合增强：
-
-- 用户留存
-- 主播与粉丝关系
-- 消费动机
-- 房间荣誉感
-- 用户身份展示
-
-### 私信与社交关系
-
-除了直播间互动，Coin Dance 还支持用户之间的基础社交能力：
-
-- 一对一私信
-- 关注关系
-- 主页资料
-- 作品动态
-- 点赞与评论
-- 消息通知
-- 访问足迹
-
-这使它不只是直播工具，而是一个完整的直播社交产品。
-
-### 作品与内容流
-
-项目包含作品发布、Feed 流、点赞、评论、收藏等内容模块。用户可以围绕直播之外的内容建立持续曝光和互动。
-
-适合扩展成：
-
-- 短视频社区
-- 主播动态
-- 用户作品墙
-- 直播预热视频
-- 活动内容广场
-
-## 技术架构
-
-后端主要技术：
-
-| 模块     | 技术                               |
-| -------- | ---------------------------------- |
-| 后端框架 | Kotlin, Spring Boot                |
-| 数据访问 | MyBatis-Plus                       |
-| 数据库   | MySQL                              |
-| 实时通信 | WebSocket                          |
-| 直播互动 | 房间事件、弹幕、礼物、PK 广播      |
-| AI 能力  | 大模型对话、TTS、AI 嘉宾调度       |
-| 音频处理 | TTS 音频、房间 BGM、语音房播放控制 |
-| 文件存储 | 阿里云 OSS                         |
-| 移动端   | Flutter                            |
-
-## 适合谁使用
-
-Coin Dance 适合以下开发者和团队参考：
-
-- 想做直播 App 的个人开发者
-- 想做语音房、陪玩房、相亲房的团队
-- 想研究 AI 主播和 AI 语音互动的开发者
-- 想做直播社交商业化原型的创业团队
-- 想学习 Spring Boot + Flutter 全栈直播项目的人
-
-## 为什么值得下载
-
-很多直播项目只提供基础推流和聊天室，但真正能运营起来的直播产品，需要更多东西：礼物、榜单、关系链、私信、粉丝团、PK、消费体系、内容流、AI 氛围和后台管理。
-
-Coin Dance 的价值就在于，它把这些模块放在同一个产品里，并且围绕“房间互动”和“用户消费动机”持续扩展。
-
-你可以把它当成：
-
-- 一个直播社交产品原型
-- 一个 AI 语音厅实验场
-- 一个 Flutter + Spring Boot 全栈项目参考
-- 一个互动娱乐产品的功能库
-- 一个可继续二次开发的商业项目底座
-
-## 下载与体验
-
-[点击进入下载与介绍页](http://120.26.7.131:8358/promotion.html)
-
-如果你觉得项目有帮助，欢迎在 GitHub 上 Star、Fork，并参与讨论。
+**Simply put: Like watching a livestream, but the host is AI and actually talks to you!**
 
 ---
 
-# English Introduction
+# 🎮 How to Play?
 
-## What Is Coin Dance?
+### 1️⃣ Download & Open the App
+Click the download link above, install and open
 
-Coin Dance is a full-stack live social platform designed for live streaming, voice rooms, AI hosts, real-time interaction, gifting, PK battles, private messaging, content feeds, and user growth systems.
+### 2️⃣ Enter a Room
+Choose your favorite AI host room
 
-It is not just a simple live-room demo. It is a product foundation for building interactive entertainment apps such as live social platforms, AI voice rooms, virtual host rooms, gaming companion rooms, dating voice rooms, and creator communities.
+### 3️⃣ Start Interacting!
+- Send chat messages
+- Give gifts to AI hosts
+- Listen to AI hosts respond to and thank you
+- Join room PK events
 
-Download and live demo:
+---
 
-[http://120.26.7.131:8358/promotion.html](http://120.26.7.131:8358/promotion.html)
+# 🌟 Amazing Features
 
-## Key Features
+### 🎭 AI Virtual Hosts
+Every room has an AI host online!
+- You send messages, AI replies with **voice**
+- You send gifts, AI **thanks** you
+- When people enter/leave, AI **welcomes** them
+- During PK, AI **rallies support** - super exciting!
 
-### AI Voice Rooms
+### ⚔️ Room PK Battles
+Battle between two AI host rooms!
+- Timed PK with real-time score changes
+- Send gifts to add points to your host
+- Winning side gets glory, loser accepts **punishment**!
 
-Coin Dance supports AI guests in voice rooms. AI characters can react to real room events such as user entrance, chat messages, gifts, PK battles, punishment sessions, and interactive activities.
+### 🎁 Gifts & Leaderboards
+- Send gifts to your favorite host
+- Watch your contributor ranking rise
+- Become room contributor king, everyone sees you
 
-Instead of being a simple chatbot, the AI works more like a virtual host that understands the room atmosphere.
+### 💬 Real-time Chat
+- Chat with others in the room
+- Hot atmosphere, like a real livestream
+- AI also joins chat, hosting is super fun
 
-Core capabilities include:
+### 👥 Online Users
+- See who's in the room
+- Follow users you like
+- Send DMs to make friends
 
-- AI guests joining voice seats
-- Real-time response to viewer messages
-- Gift appreciation and entrance greetings
-- PK cheering, talent performance, and ranking thanks
-- Room memory and contextual awareness
-- Punishment flow after PK battles
-- Cost control when no real users are in the room
+---
 
-### Live Streaming and Voice Rooms
+# 🏆 Why Play?
 
-The platform supports both video live rooms and voice rooms. Each room can include chat, online viewers, seats, background music, gifts, PK battles, rankings, and live interaction states.
+✨ **AI hosts can talk** - Not just chat-bots, AI actually uses voice to interact with you!  
+✨ **Hot atmosphere** - Messages, gifts, PK, just like a real livestream  
+✨ **Always online** - AI hosts online 24/7, someone to play with anytime  
+✨ **Simple & fun** - No learning needed, open and play  
+✨ **Totally free** - Come play for free!
 
-It can be used for:
+---
 
-- Show-room streaming
-- Voice social rooms
-- AI host rooms
-- Gaming companion rooms
-- Music rooms
-- Online entertainment rooms
+# 📱 Download Now
 
-### Real-Time PK Battles
+**Don't hesitate, come play with AI hosts!**
 
-Coin Dance includes a real-time room-vs-room PK system. Scores can be driven by gifts, interaction rules, or custom gameplay events and broadcast to both rooms instantly.
+[🎮 Click to Download / Play Online](http://120.26.7.131:8358/promotion.html)
 
-The PK system includes:
+---
 
-- PK countdown
-- Live score sync
-- Contributor rankings
-- Host and guest interaction
-- Win/loss settlement
-- Punishment stage
-- PK background music switching
+*Share with friends, play together!*
 
-### Gift and Monetization System
 
-The project includes a complete gift and wallet foundation, including gift tabs, gift details, gift logs, wallet records, recharge orders, user props, and decoration systems.
+---
 
-It can be used as the base layer for live-platform monetization:
+<div align="center">
 
-- Gift panel
-- Gift categories
-- Gift sending records
-- Wallet logs
-- Recharge orders
-- User decorations
-- Mystery identity mode
-- Fan club intimacy
+# 抖音无限币
 
-### Fan Club and User Growth
+## 🎭 AI主播语音厅 - 来和AI一起互动！
 
-Coin Dance includes fan clubs, levels, intimacy points, tasks, privileges, rebirth progression, and mystery identity systems. These features help users build long-term identity and emotional connection with rooms and hosts.
+**立即下载体验**
 
-They are useful for improving:
+[🎮 点击下载 / 在线体验](http://120.26.7.131:8358/promotion.html)
 
-- Retention
-- Host-fan relationships
-- Spending motivation
-- Room honor systems
-- User identity display
+</div>
 
-### Direct Messages and Social Graph
+---
 
-Beyond live-room interaction, Coin Dance also includes social features:
+# ✨ 什么是Tiktok Infinite Coin Simulator？
 
-- One-to-one private messages
-- Follow relationships
-- User profiles
-- User posts
-- Likes and comments
-- Notifications
-- Profile visits
+Tiktok Infinite Coin Simulator 是一个**AI虚拟主播语音社交平台**，在这里你可以：
 
-This makes it more than a live-streaming tool. It is a complete live social product foundation.
+- 🎤 **和AI主播实时语音聊天** - AI会回应你说的每一句话
+- 🎁 **送礼物、刷礼物** - 看AI主播感谢你的支持
+- ⚔️ **参与PK对战** - 看不同房间的主播激烈对决
+- 👥 **认识新朋友** - 进入房间，和其他用户一起互动
+- 🏆 **刷榜冲排名** - 送礼物上榜单，成为房间贡献王
+- 💬 **发送弹幕** - 实时聊天，氛围超棒
 
-### Content Feed
+**简单来说：就像看直播，但主播是AI，而且会跟你说话！**
 
-The project includes post publishing, feeds, likes, comments, and collection-related data structures. Users can continue to interact outside live rooms through content.
+---
 
-It can be extended into:
+# 🎮 怎么玩？
 
-- Short-video community
-- Creator updates
-- User profile content wall
-- Live preview videos
-- Activity feed
+### 1️⃣ 下载并打开APP
+点击上方的下载链接，安装后打开
 
-## Tech Stack
+### 2️⃣ 进入一个房间
+选择你喜欢的AI主播房间
 
-Backend and product architecture:
+### 3️⃣ 开始互动！
+- 发弹幕聊天
+- 送礼物给AI主播
+- 听AI主播回应你、感谢你
+- 参与房间PK活动
 
-| Layer               | Technology                                       |
-| ------------------- | ------------------------------------------------ |
-| Backend             | Kotlin, Spring Boot                              |
-| Data Access         | MyBatis-Plus                                     |
-| Database            | MySQL                                            |
-| Real-Time Messaging | WebSocket                                        |
-| Live Interaction    | Room events, chat, gifts, PK broadcast           |
-| AI                  | LLM dialogue, TTS, AI guest orchestration        |
-| Audio               | TTS audio, room BGM, voice-room playback control |
-| Storage             | Alibaba Cloud OSS                                |
-| Mobile App          | Flutter                                          |
+---
 
-## Who Is It For?
+# 🌟 精彩功能
 
-Coin Dance is suitable for:
+### 🎭 AI虚拟主播
+每个房间都有AI主播在线！
+- 你说弹幕，AI会用**语音**回复你
+- 你送礼物，AI会**感谢**你
+- 房间有人进进出出，AI会**欢迎**大家
+- PK开始时，AI会**喊票**，很燃！
 
-- Developers building a live-streaming app
-- Teams exploring voice rooms, dating rooms, or gaming companion rooms
-- Developers interested in AI hosts and AI-driven room interaction
-- Startup teams building live social monetization prototypes
-- Developers learning a full-stack Spring Boot + Flutter live app architecture
+### ⚔️ 房间PK对战
+两个房间AI主播对决！
+- 限时PK，双方分数实时变化
+- 送礼物给主播加分
+- 赢的一方有荣耀，输的要接受**惩罚**！
 
-## Why Download It?
+### 🎁 礼物与榜单
+- 送出你喜欢的主播礼物
+- 看自己的贡献排名上升
+- 成为房间贡献王，所有人都看到你
 
-Many live-streaming projects only provide basic streaming and chat. A real live social product needs much more: gifts, rankings, relationships, private messages, fan clubs, PK battles, wallet systems, content feeds, AI atmosphere, and operational tools.
+### 💬 实时弹幕聊天
+- 和房间里的其他人一起聊天
+- 气氛热烈，像真的在直播间
+- AI也会参与聊天，控场超有趣
 
-Coin Dance brings these modules together around one core idea: making live rooms feel alive, interactive, and commercially sustainable.
+### 👥 在线用户
+- 看到谁在房间里
+- 关注你喜欢的用户
+- 送私信交朋友
 
-You can use it as:
+---
 
-- A live social product prototype
-- An AI voice-room experiment
-- A Flutter + Spring Boot full-stack reference
-- A feature library for interactive entertainment products
-- A foundation for further commercial development
+# 🏆 为什么来玩？
 
-## Download and Try
+✨ **AI主播会说话** - 不是只会刷屏的机器人，是真的用语音跟你互动！  
+✨ **氛围热烈** - 弹幕、礼物、PK，像真的在直播间  
+✨ **随时在线** - AI主播24小时在线，什么时候来都有人陪你玩  
+✨ **简单好玩** - 不需要学，打开就能玩  
+✨ **完全免费** - 来玩不要钱！
 
-[Open the download and promotion page](http://120.26.7.131:8358/promotion.html)
+---
 
-If you find the project useful, please consider giving it a Star on GitHub, forking it, and sharing feedback.
+# 📱 立即下载体验
 
+**别犹豫了，快来和AI主播一起玩吧！**
+
+[🎮 点击下载 / 在线体验](http://120.26.7.131:8358/promotion.html)
+
+---
+
+*分享给朋友，一起组队来玩！*
