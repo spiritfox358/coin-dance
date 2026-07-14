@@ -12,9 +12,9 @@
 
 ---
 
-# ✨ What is Tiktok Infinite Coin Simulator?
+# ✨ What is Tiktok Infinite Coin?
 
-Tiktok Infinite Coin Simulator is an **AI virtual host voice social platform** where you can:
+Tiktok Infinite Coin is an **AI virtual host voice social platform** where you can:
 
 - 🎤 **Voice chat with AI hosts in real-time** - AI responds to everything you say
 - 🎁 **Send gifts and shower with coins** - Watch AI hosts thank you for your support
@@ -112,9 +112,9 @@ Battle between two AI host rooms!
 
 ---
 
-# ✨ 什么是Tiktok Infinite Coin Simulator？
+# ✨ 什么是Tiktok Infinite Coin？
 
-Tiktok Infinite Coin Simulator 是一个**AI虚拟主播语音社交平台**，在这里你可以：
+Tiktok Infinite Coin 是一个**AI虚拟主播语音社交平台**，在这里你可以：
 
 - 🎤 **和AI主播实时语音聊天** - AI会回应你说的每一句话
 - 🎁 **送礼物、刷礼物** - 看AI主播感谢你的支持
